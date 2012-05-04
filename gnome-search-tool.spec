@@ -10,9 +10,9 @@ Url:		http://www.gnome.org
 Source0:	http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gconf-2.0)
-BuildRequires:	pkgconfig(glib-2.0) >= 2.30.0
+BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gnome-doc-utils)
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.0.0
+BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(sm)
 Conflicts:	gnome-utils < 1:3.3.1
 
