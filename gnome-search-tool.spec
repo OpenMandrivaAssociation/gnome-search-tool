@@ -3,7 +3,7 @@
 Summary:	GNOME Search tool
 Name:		gnome-search-tool
 Version:	3.6.0
-Release:	7
+Release:	8
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
 Url:		http://www.gnome.org
