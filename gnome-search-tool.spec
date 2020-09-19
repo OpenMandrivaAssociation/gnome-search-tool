@@ -4,7 +4,7 @@
 Summary:	GNOME Search tool
 Name:		gnome-search-tool
 Version:	3.6.0
-Release:	12
+Release:	14
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
 Url:		http://www.gnome.org
@@ -25,14 +25,14 @@ Search tool for Gnome desktop.
 %setup -q
 
 %build
-%configure2_5x \
+%configure \
 	--disable-schemas-compile \
 	--disable-schemas-install \
 	--disable-scrollkeeper
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %find_lang %{name} --with-gnome
 
