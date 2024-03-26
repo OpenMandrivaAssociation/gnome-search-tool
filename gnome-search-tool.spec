@@ -4,10 +4,10 @@
 Summary:	GNOME Search tool
 Name:		gnome-search-tool
 Version:	3.6.0
-Release:	20
+Release:	21
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
-Url:		http://www.gnome.org
+Url:		https://www.gnome.org
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	intltool
 BuildRequires:	itstool
